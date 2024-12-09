@@ -27,7 +27,7 @@ RUN jenkins-plugin-cli --plugins "blueocean docker-workflow token-macro json-pat
 ```
 
 **Main.tf**
-```JSON
+```Dockerfile
 terraform {
   required_providers {
     docker = {
